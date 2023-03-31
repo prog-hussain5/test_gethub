@@ -22,19 +22,9 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(226, 98)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(276, 180)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
@@ -61,14 +51,11 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
 
     End Sub
-
-    Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
 End Class
