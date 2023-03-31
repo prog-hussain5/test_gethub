@@ -4,6 +4,6 @@
         Dim n As String
         Dim mm As String
         Dim mmmmmmmmmmmmmmmmmmmmmmmm As String
-
+        Dim mmmmmmmmmm As Integer
     End Sub
 End Class
